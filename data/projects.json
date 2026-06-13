@@ -1,0 +1,18 @@
+[
+  {
+    "id": "website-offer",
+    "name": "Website Service Offer",
+    "status": "active",
+    "priority": "P0",
+    "next_action": "Publish one landing page offer and contact 5 prospects",
+    "owner": "operator"
+  },
+  {
+    "id": "content-engine",
+    "name": "Content Engine",
+    "status": "active",
+    "priority": "P1",
+    "next_action": "Prepare 3 posts tied to one paid offer",
+    "owner": "operator"
+  }
+]

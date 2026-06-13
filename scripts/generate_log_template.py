@@ -1,0 +1,11 @@
+from datetime import date
+print('# Daily LOG - '+str(date.today()))
+print()
+print('## Shipped')
+print('- ')
+print('## Leads / follow-up')
+print('- ')
+print('## Blockers')
+print('- ')
+print('## Tomorrow')
+print('- ')
