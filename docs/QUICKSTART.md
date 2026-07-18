@@ -19,7 +19,15 @@ Expected output:
 
 ```text
 OK: SAKA OS Lite demo data valid
+Counts: projects.json=4, content_pipeline.json=3, opportunities.json=3
 ```
+
+The validator checks:
+
+- JSON syntax,
+- required fields,
+- duplicate IDs,
+- common secret markers.
 
 ## 3. Generate a Daily BRIEF
 
@@ -31,8 +39,10 @@ Example output:
 
 ```text
 # Daily BRIEF
+- P0 Daily Operating Cockpit: Run morning brief and choose one money/action focus
 - P0 Website Service Offer: Publish one landing page offer and contact 5 prospects
 - P1 Content Engine: Prepare 3 posts tied to one paid offer
+- P2 Weekly Ops Cleanup: Archive stale tasks and update next actions every Friday
 ```
 
 ## 4. Generate a LOG template
