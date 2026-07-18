@@ -1,10 +1,26 @@
 [
   {
     "id": "opp-001",
-    "type": "grant/freebie/competition",
+    "type": "freebie/credit",
     "title": "Demo AI credits opportunity",
     "status": "watch",
-    "source_url": "https://example.com",
+    "source_url": "https://example.com/demo-ai-credits",
     "next_action": "Verify eligibility before applying"
+  },
+  {
+    "id": "opp-002",
+    "type": "portfolio",
+    "title": "Ask 5 target users to try the template",
+    "status": "active",
+    "source_url": "https://github.com/aiwkgb/saka-os-lite",
+    "next_action": "Share the quickstart and ask for one friction point"
+  },
+  {
+    "id": "opp-003",
+    "type": "grant/oss",
+    "title": "Open-source maintainer program watchlist",
+    "status": "watch",
+    "source_url": "https://example.com/oss-program",
+    "next_action": "Check official eligibility and prepare honest project impact notes"
   }
 ]

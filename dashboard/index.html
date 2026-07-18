@@ -1,1 +1,51 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SAKA OS Lite</title><link rel="stylesheet" href="style.css"></head><body><main><h1>SAKA OS Lite</h1><p>Daily command center for solo operators.</p><section><h2>Projects</h2><div id="projects"></div></section><section><h2>Opportunities</h2><div id="opportunities"></div></section></main><script src="app-data.js"></script><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SAKA OS Lite</title>
+  <meta name="description" content="A simple AI-assisted daily operating cockpit for solo founders and small-business operators.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <p class="eyebrow">SAKA OS Lite</p>
+      <h1>Daily operating cockpit for solo operators.</h1>
+      <p class="lead">Turn scattered projects, content, opportunities, and next actions into one small source-of-truth.</p>
+    </header>
+
+    <section class="summary" aria-label="Summary cards">
+      <article class="metric"><span id="projectCount">0</span><small>Projects</small></article>
+      <article class="metric"><span id="contentCount">0</span><small>Content items</small></article>
+      <article class="metric"><span id="opportunityCount">0</span><small>Opportunities</small></article>
+    </section>
+
+    <section aria-labelledby="projectsTitle">
+      <div class="section-head">
+        <h2 id="projectsTitle">Project Radar</h2>
+        <p>What needs action next.</p>
+      </div>
+      <div id="projects" class="grid"></div>
+    </section>
+
+    <section aria-labelledby="contentTitle">
+      <div class="section-head">
+        <h2 id="contentTitle">Content Pipeline</h2>
+        <p>Ideas, drafts, and approvals.</p>
+      </div>
+      <div id="content" class="grid"></div>
+    </section>
+
+    <section aria-labelledby="opportunitiesTitle">
+      <div class="section-head">
+        <h2 id="opportunitiesTitle">Opportunity Watchlist</h2>
+        <p>Grants, free credits, competitions, and useful leads.</p>
+      </div>
+      <div id="opportunities" class="grid"></div>
+    </section>
+  </main>
+  <script src="app-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,5 +1,13 @@
 [
   {
+    "id": "daily-cockpit",
+    "name": "Daily Operating Cockpit",
+    "status": "active",
+    "priority": "P0",
+    "next_action": "Run morning brief and choose one money/action focus",
+    "owner": "operator"
+  },
+  {
     "id": "website-offer",
     "name": "Website Service Offer",
     "status": "active",
@@ -13,6 +21,14 @@
     "status": "active",
     "priority": "P1",
     "next_action": "Prepare 3 posts tied to one paid offer",
+    "owner": "operator"
+  },
+  {
+    "id": "ops-cleanup",
+    "name": "Weekly Ops Cleanup",
+    "status": "watch",
+    "priority": "P2",
+    "next_action": "Archive stale tasks and update next actions every Friday",
     "owner": "operator"
   }
 ]

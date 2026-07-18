@@ -6,5 +6,21 @@
     "status": "draft",
     "hook": "Your website is not a brochure, it is a sales assistant",
     "cta": "DM WEBSITE for a quick audit"
+  },
+  {
+    "id": "post-002",
+    "brand": "Demo Service",
+    "channel": "LinkedIn",
+    "status": "review",
+    "hook": "A simple daily cockpit beats ten scattered productivity apps",
+    "cta": "Fork the template and try the 10-minute setup"
+  },
+  {
+    "id": "post-003",
+    "brand": "Demo Service",
+    "channel": "Newsletter",
+    "status": "idea",
+    "hook": "How small operators can use AI without exposing private data",
+    "cta": "Read the sanitization checklist before publishing"
   }
 ]
